@@ -39,7 +39,7 @@ $path = "/a/b/c/d/e/f/g/h/i";
 // A:
 
 //------------------------------------------------ Question 4
-// Q: Refractor and clean up this piece of code. (REQ PHP 5.3+)
+// Q: Refactor and clean up this piece of code. (REQ PHP 5.3+)
 
 $a=10;$A=function(&$a){$B=function($b)use($a){return $a*$b;};$a=$B($a++);};++$a;$A($a);print $a;
 
