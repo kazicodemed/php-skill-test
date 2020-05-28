@@ -7,7 +7,7 @@
 /**
  * Directions
  *
- * Read the direction in the Q and respond below A.
+ * Read the direction in the Q and respond below A. Resolve merge conflict.
  *
  */
 
