@@ -9,7 +9,9 @@
  *
  * Read the direction in the Q and respond below A.
  *
- * All answers should be working code.
+ * All answers should be working code. When done, create a new branch, name it after your first name and then
+ * using Github initiate a pull request into release/adam branch. If a conflicts emerges, resolve the conflicts before
+ * pull request is initiated.
  */
 
 //------------------------------------------------ Question 1
