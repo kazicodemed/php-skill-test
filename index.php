@@ -24,7 +24,7 @@ print $person->getDateOfBirth('F j, Y'); // April 6, 1984
 
 // A:
 
-echo "\n========A:1========\n";
+echo "\n========Anwer:1========\n";
 
 class PersonQuick
 {
@@ -79,7 +79,7 @@ $str = "In this snippet we want to replace txet with text and text with txet.";
 
 // A:
 
-echo "\nA2-Answer Before Replacements \n";
+echo "\n =======A2-Answer Before Replacements \n";
 echo $str."\n";
 
 function exchangeWords($str,$x,$y){
@@ -113,6 +113,8 @@ $pattern = "/\/(\w*)\/(\w*)\/(\w*)\/(\w*)\/(\w*)\//";
 //print_r($matches);
 
 $path = preg_replace($pattern,"/$5/$4/$3/$2/$1/",$path);
+echo "\n=====Answer 3===========\n";
+
 print "\n A3 = ".$path;
 echo "\n================\n";
 
@@ -133,7 +135,7 @@ $A = function ($a) {
 ++$a;
 $calc = $A($a);
 $a = $calc($a);
-echo "\nA4-Answer after refactoring \n";
+echo "\nA4-========Answer after refactoring==== \n";
 print $a;
 
 //------------------------------------------------ Question 5
@@ -145,5 +147,5 @@ $array = array(1,'a',array('a' => 'A', 'b' => array('c' => array(1,2,3,4,5,'c' =
 
 $obj =  (object)($array);
 
-echo "\n====Answer===\n";
+echo "\n====Answer:5===\n";
 echo gettype($obj);
